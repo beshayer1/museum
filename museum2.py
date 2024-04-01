@@ -131,7 +131,7 @@ class TestMuseumSystem(unittest.TestCase):
     def test_purchase_tickets(self):
         # Test the purchase of tickets by an individual
         individual_ticket_data = {
-            "visitor_name": "John Doe",
+            "visitor_name": "Mohammed Ali",
             "age": 30,
             "ticket_type": "Adult",
             "event_name": "Impressionism Exhibition"
@@ -153,7 +153,7 @@ class TestMuseumSystem(unittest.TestCase):
         def test_display_payment_receipt(self):
             # Test the display of payment receipts for purchasing tickets
             individual_ticket_data = {
-                "visitor_name": "Jane Smith",
+                "visitor_name": "Mariam Hamad",
                 "age": 25,
                 "ticket_type": "Adult",
                 "event_name": "Impressionism Exhibition"
